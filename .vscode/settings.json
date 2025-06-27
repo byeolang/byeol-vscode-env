@@ -68,6 +68,12 @@
         "execution": "cpp",
         "ios": "cpp",
         "locale": "cpp",
-        "print": "cpp"
+        "print": "cpp",
+        "terminal.integrated.automationProfile.osx": {
+            "path": "/bin/bash"
+        },
+        "terminal.integrated.automationProfile.linux": {
+            "path": "/bin/bash"
+        }
     }
 }
