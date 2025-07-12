@@ -13,7 +13,8 @@ you need to have an envrionment where byeol can be built from
 
 * Copy the entire `.vscode` in the root folder to the root folder of the `byeol` project.
 * After running `vs code`, open the root folder of the `byeol` project.
-* Open the `Run and Debug` view and if you see a listbox next to `start debugging` at the top, you're good to go.
+* Open the `Run and Debug` view and if you see a listbox next to `Start Debugging` at the top, you're good to go.
+![Screenshot](doc/img-configuration-loaded.png)
 
 ### Notes
 * The default setting is gdb, but on mac-arm64 it should be lldb only.
