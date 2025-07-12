@@ -23,6 +23,15 @@
                     "text": "set charset UTF-8"
                 }
             ]
+        },
+        {
+            "name": "(lldb)(recommend for mac-arm64) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/test",
+            "args": ["--gtest_filter=${input:testcase}", "verbose"],
+            "cwd": "${workspaceFolder}/bin",
+            "MIMode": "lldb"
         }
     ],
     "inputs": [

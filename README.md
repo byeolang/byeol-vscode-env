@@ -8,3 +8,12 @@
 you need to have an envrionment where byeol can be built from
 [byeol](https://github.com/byeol-org/byeol).
 * I recommend installing the `C/C++` extension distributed by Microsoft for VS Code.
+
+### How to install
+
+* Copy the entire `.vscode` in the root folder to the root folder of the `byeol` project.
+* After running `vs code`, open the root folder of the `byeol` project.
+* Open the `Run and Debug` view and if you see a listbox next to `start debugging` at the top, you're good to go.
+
+### Notes
+* The default setting is gdb, but on mac-arm64 it should be lldb only.
